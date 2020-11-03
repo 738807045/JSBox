@@ -53,7 +53,7 @@ if (inputValue) {
 
     $widget.setTimeline({
         render: ctx => {
-            $widget.family = $widgetFamily.medium
+            //$widget.family = $widgetFamily.medium
             const family = ctx.family;
             const width = $widget.displaySize.width
             const height = $widget.displaySize.height
